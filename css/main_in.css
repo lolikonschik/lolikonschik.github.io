@@ -224,7 +224,10 @@ footer {
   .card_txt p {
     font-size: 0.8rem;
     font-weight: 400; } }
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
+  .row_txt {
+    padding: 0 0px 25px 0px; }
+
   .row_top_slide {
     display: none; }
 
@@ -245,6 +248,9 @@ footer {
     list-style: none;
     padding-inline-start: 5px; }
 
+  .col-md-12 h1 {
+    font-size: 2rem; }
+
   .row_carousel .carousel-indicators {
     bottom: -15px; }
 
@@ -259,6 +265,9 @@ footer {
   .card_txt p {
     font-size: 1rem;
     font-weight: 500; }
+
+  .row_map, .col_map {
+    padding: 0; }
 
   .row_foot {
     padding: 0 10px;
