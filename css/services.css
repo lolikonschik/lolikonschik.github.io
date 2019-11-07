@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap&subset=cyrillic");
+html {
+  font-size: 14px; }
+
+body {
+  background-color: #eef3f5;
+  font-family: "Roboto", sans-serif; }
+
+.logo_img {
+  content: url(../img/logo-small-new4.png); }
+
+nav {
+  background-color: #fff;
+  min-height: 115px !important; }
+
+.navbar-nav a {
+  text-transform: uppercase; }
+
+.bold_a, .navbar-nav > a {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0 15px; }
+
+.row_img_top {
+  width: 100%;
+  margin: 0;
+  max-height: 250px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-image: url(../img/top-clear.jpg);
+  background-size: cover;
+  background-position: center top; }
+  .row_img_top > .col {
+    width: 90%;
+    padding: 0 44px;
+    margin: 0 auto; }
+    .row_img_top > .col h1 {
+      font-size: 40px;
+      width: 70%;
+      color: white;
+      font-weight: 500;
+      line-height: 46px;
+      letter-spacing: 1px;
+      word-spacing: 3px;
+      transform: scale(1, 1.4); }
+
+.row_content {
+  margin: 0;
+  background-color: #fff;
+  padding: 15px 60px 5px 60px; }
+  .row_content h2 {
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 22px; }
+  .row_content ul {
+    list-style-position: inside;
+    list-style-type: circle;
+    line-height: 26px; }
+    .row_content ul li {
+      font-size: 16px; }
+
+.content {
+  padding: 15px 20px;
+  line-height: 25px; }
+
+footer {
+  background-image: url(../img/chruch.png);
+  background-repeat: repeat-repeat;
+  padding: 11px 15px; }
+  footer i {
+    padding-top: 7px;
+    font-size: 15px; }
+  footer span {
+    font-size: 15px;
+    font-weight: 500; }
+  footer small {
+    font-size: 12px; }
+
+.fa-home {
+  padding-bottom: 12px; }
+
+@media all and (max-width: 1200px) {
+  .row_img_top {
+    max-height: 300px;
+    height: 300px; }
+
+  .row_img_top {
+    width: 100%;
+    height: 300px; }
+
+  .bold_a, .navbar-nav > a {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 7px; } }
+@media all and (max-width: 992px) {
+  .row_img_top {
+    max-height: 250px;
+    height: 250px; }
+
+  .row_img_top {
+    width: 100%;
+    height: 250px; }
+
+  .logo_img {
+    content: url(../img/logo-small-newer1.png); }
+
+  nav {
+    min-height: 95px !important; }
+
+  .bold_a, .navbar-nav > a {
+    margin: 0 2px; }
+
+  .content {
+    padding: 8px 0;
+    line-height: 23px; }
+    .content p {
+      line-height: 23px; } }
+@media all and (max-width: 768px) {
+  .row_img_top {
+    max-height: 195px;
+    height: 195px; }
+
+  .row_img_top {
+    width: 100%;
+    height: 195px; }
+    .row_img_top .col > h1 {
+      font-size: 30px;
+      width: 80%;
+      font-weight: 400;
+      line-height: 35px;
+      letter-spacing: 1px;
+      word-spacing: 3px;
+      transform: scale(1, 1.5); }
+
+  .logo_img {
+    content: url(../img/logo-small-phone.png); }
+
+  .bold_a, .navbar-nav > a {
+    margin: 0; }
+
+  .row_content {
+    padding: 5px 0 3px 0px; }
+    .row_content ul li {
+      padding-left: 0;
+      font-size: 14px; }
+
+  .row_foot {
+    line-height: 35px; }
+
+  .row_foot p {
+    font-size: 13px; }
+
+  footer {
+    padding: 7px 15px; }
+    footer i {
+      font-size: 13px; }
+    footer span {
+      font-size: 13px;
+      font-weight: 500; }
+    footer small {
+      font-size: 11px; } }
+
+/*# sourceMappingURL=services.css.map */

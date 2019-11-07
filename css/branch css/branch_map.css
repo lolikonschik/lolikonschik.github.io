@@ -1,0 +1,103 @@
+* {margin:0; padding: 0}
+html, body {width: 100%; height: 100%}
+#map {
+    min-width: 850px; 
+    width: 72%; 
+    height: 100%; 
+    /*background-color: transparent;*/
+    background-color: #0078a8;
+}
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+.my-div-icon {
+    border-radius: 5px;
+    background-color: #000;
+}
+
+.my-div-icon span {
+    font-weight: bold;
+    position: relative;
+    top:-5px;
+    left:15px
+}
+.my-div-icon .circle {
+
+}
+
+#contact_form {
+    width:600px;
+    height:300px;
+    position: absolute;
+    top:50%;margin-top:-150px;
+    left:40%;margin-left: -300px;
+    background-color: #EDEDED;
+}
+#contact_form .man_name {
+    font: bold 16px/18px Tahoma,Geneva,sans-serif;
+    margin-bottom: 15px;
+}
+#contact_form .map_tel, #contact_form .map_mail, #contact_form .map_adress, #contact_form .map_icq, #contact_form .map_mob_phone {
+    background-position: 87px 3px;
+    font-size: 12px;
+    padding-left: 109px;
+}
+.form_name {
+    font: bold 14px Tahoma,Geneva,sans-serif;
+    margin-bottom: 7px;
+}
+#contact_form form input {
+    border: 1px solid #9C9C9C;
+    color: #757575;
+    font-family: Tahoma,Geneva,sans-serif;
+    margin-right: 10px;
+    padding: 5px;
+    width: 175px;
+}
+textarea, input[type="text"], input[type="password"], select {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+}
+.obyas {
+    color: #757575;
+    float: left;
+    font-size: 11px;
+    line-height: 14px;
+    margin-left: 13px;
+    margin-top: 9px;
+    width: 180px;
+}
+.obyas strong {
+    color: #ED1C24;
+    font: bold 12px Tahoma,Geneva,sans-serif;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}

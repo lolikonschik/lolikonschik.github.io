@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap&subset=cyrillic");
+html {
+  font-size: 15px; }
+
+body {
+  background-color: #eef3f5;
+  font-family: "Roboto", sans-serif; }
+
+.logo_img {
+  content: url(../img/logo-small-new4.png); }
+
+nav {
+  background-color: #fff;
+  min-height: 115px !important; }
+
+.navbar-nav a {
+  text-transform: uppercase; }
+
+.bold_a, .navbar-nav > a {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0 15px; }
+
+.row_img_top {
+  max-height: 350px;
+  height: 350px; }
+
+.row_img_top iframe {
+  width: 100%;
+  height: 350px; }
+
+.row_content {
+  margin: 0;
+  background-color: #fff; }
+
+.content {
+  padding: 25px 50px;
+  line-height: 25px; }
+  .content p {
+    line-height: 26px;
+    text-align: justify; }
+
+.row_content ul {
+  list-style: none;
+  padding-inline-start: 20px; }
+
+footer {
+  background-image: url(../img/chruch.png);
+  background-repeat: repeat-repeat;
+  padding: 11px 15px; }
+  footer i {
+    padding-top: 7px;
+    font-size: 15px; }
+  footer span {
+    font-size: 15px;
+    font-weight: 500; }
+  footer small {
+    font-size: 12px; }
+
+.fa-home {
+  padding-bottom: 12px; }
+
+@media all and (max-width: 1200px) {
+  .row_img_top {
+    max-height: 340px;
+    height: 340px; }
+
+  .row_img_top iframe {
+    width: 100%;
+    height: 340px; }
+
+  .bold_a, .navbar-nav > a {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 7px; } }
+@media all and (max-width: 992px) {
+  .row_img_top {
+    max-height: 290px;
+    height: 290px; }
+
+  .row_img_top iframe {
+    width: 100%;
+    height: 290px; }
+
+  .logo_img {
+    content: url(../img/logo-small-newer1.png); }
+
+  nav {
+    min-height: 95px !important; }
+
+  .bold_a, .navbar-nav > a {
+    margin: 0 2px; }
+
+  .content {
+    padding: 8px 0;
+    line-height: 23px; }
+    .content p {
+      line-height: 23px; } }
+@media all and (max-width: 768px) {
+  .row_img_top {
+    max-height: 250px;
+    height: 250px; }
+
+  .row_img_top iframe {
+    width: 100%;
+    height: 250px; }
+
+  .logo_img {
+    content: url(../img/logo-small-phone.png); }
+
+  .bold_a, .navbar-nav > a {
+    margin: 0; }
+
+  .row_content ul {
+    list-style: none;
+    padding-inline-start: 5px; }
+
+  .row_foot {
+    padding: 0 10px;
+    line-height: 35px; }
+
+  footer {
+    padding: 7px 15px; }
+    footer i {
+      font-size: 13px; }
+    footer span {
+      font-size: 13px;
+      font-weight: 500; }
+    footer small {
+      font-size: 11px; } }
+
+/*# sourceMappingURL=main.css.map */
