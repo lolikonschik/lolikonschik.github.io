@@ -1,8 +1,4 @@
 @media all and (max-width: 1200px) {
-  .row_img_top iframe {
-    width: 100%;
-    height: 340px; }
-
   .bold_a, .navbar-nav > a {
     font-size: 15px;
     font-weight: 700;
@@ -19,9 +15,6 @@
       width: 80px;
       height: 75%; } }
 @media all and (max-width: 992px) {
-  .row_img_top iframe {
-    width: 100%; }
-
   .logo_img {
     content: url(../img/logo-small-newer1.png); }
 
@@ -65,7 +58,13 @@
     font-size: 0.8rem;
     font-weight: 400; } }
 @media all and (max-width: 768px) {
-  .row_img_top iframe {
+  .row_top_slide {
+    display: none; }
+
+  .row_circle {
+    display: none; }
+
+  .row_top_slide iframe {
     width: 100%;
     height: 250px; }
 
