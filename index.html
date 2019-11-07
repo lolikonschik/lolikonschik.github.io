@@ -74,7 +74,7 @@
 			<!-- </div> -->
 			<!-- </div> -->
 
-			 <div class="row row_img_top">
+			 <div class="row row_top_slide">
 				<div class="col">
 					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -307,7 +307,8 @@
 		
 		<!-- Появление элементов при прокрутке -->
 		<script>new WOW().init();</script>
-
+		
+		<!-- Прелоадер -->
 		<script type="text/javascript">$(window).on('load', function () {
         var $preloader = $('#preloader'),
             $svg_anm   = $preloader.find('.svg_anm');
@@ -316,6 +317,13 @@
     });
     </script>
 
+		<!-- Задержка верхних слайдов -->
+	  <script>
+	    $('#carouselExampleIndicators').carousel({
+			  interval: 2000
+			})
+	  </script>
+    
     <!-- Отображение тултипа -->
 		<script>
 	    $(function () {
@@ -323,12 +331,13 @@
 	    })
 	  </script>
 
-	  <!-- Замедление слайдов с заказчиками -->
+	  <!-- Задержка слайдов с заказчиками -->
 		<script>
 	    $('#blogCarousel').carousel({
 				interval: 99999
 			});
 	  </script>
+	  
 		<!-- Bootstrap core JavaScript ================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
 		
