@@ -72,7 +72,10 @@
     height: 250px; }
 
   .logo_img {
-    content: url(../img/logo-small-phone.png); }
+    content: url(../img/logo/logo_1.svg);
+    min-width: 162px !important;
+    max-width: 162px !important;
+    width: 162px; }
 
   .bold_a, .navbar-nav > a {
     margin: 0; }
@@ -115,5 +118,12 @@
       font-weight: 500; }
     footer small {
       font-size: 11px; } }
+@media all and (max-width: 320px) {
+  .dropdown-item {
+    padding-left: 10px;
+    padding-right: 0px; }
+
+  .dropdown-menu a {
+    font-size: 14px; } }
 
 /*# sourceMappingURL=main_in_media.css.map */
