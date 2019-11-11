@@ -1,4 +1,12 @@
 @media all and (max-width: 1200px) {
+  .container {
+    max-width: 100%; }
+
+  .logo_img {
+    min-width: 380px !important;
+    max-width: 380px !important;
+    width: 380px; }
+
   .bold_a, .navbar-nav > a {
     font-size: 15px;
     font-weight: 700;
@@ -16,7 +24,9 @@
       height: 75%; } }
 @media all and (max-width: 992px) {
   .logo_img {
-    content: url(../img/logo-small-newer1.png); }
+    min-width: 300px !important;
+    max-width: 300px !important;
+    width: 300px; }
 
   nav {
     min-height: 95px !important; }
@@ -58,6 +68,14 @@
     font-size: 0.8rem;
     font-weight: 400; } }
 @media all and (max-width: 767px) {
+  .logo_img {
+    min-width: 290px !important;
+    max-width: 290px !important;
+    width: 290px; }
+
+  .text-center-sm {
+    text-align: center !important; }
+
   .row_txt {
     padding: 0 0px 25px 0px; }
 
@@ -70,12 +88,6 @@
   .row_top_slide iframe {
     width: 100%;
     height: 250px; }
-
-  .logo_img {
-    content: url(../img/logo/logo_1.svg);
-    min-width: 162px !important;
-    max-width: 162px !important;
-    width: 162px; }
 
   .bold_a, .navbar-nav > a {
     margin: 0; }
@@ -118,7 +130,22 @@
       font-weight: 500; }
     footer small {
       font-size: 11px; } }
+@media all and (max-width: 576px) {
+  .logo_img {
+    min-width: 250px !important;
+    max-width: 250px !important;
+    width: 250px; } }
+@media all and (max-width: 358px) {
+  .logo_img {
+    min-width: 200px !important;
+    max-width: 200px !important;
+    width: 200px; } }
 @media all and (max-width: 320px) {
+  .logo_img {
+    min-width: 180px !important;
+    max-width: 180px !important;
+    width: 180px; }
+
   .dropdown-item {
     padding-left: 10px;
     padding-right: 0px; }
