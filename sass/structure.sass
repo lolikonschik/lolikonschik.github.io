@@ -10,12 +10,54 @@ body
 	// padding-top: 40px
 	// margin: 0
 
+.container
+	padding: 0
+	
+#img_nav, #my_nav, .navbar-brand
+	padding: 0
+
+#img_nav
+	padding: 9px 0 8px 0px
+	min-height: auto !important
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+	ul
+		padding: 0
+		margin: 0
+		list-style: none
+		text-align: end
+		li
+			padding: 0
+			margin: 0
+			list-style: none
+			// display: inline-block
+			a
+				text-decoration: none
+				font-family: inherit
+				font-weight: 500
+
+.ul_link
+	a
+		// font-size: 15.5px
+		letter-spacing: 0.8px
+
+.ukr_link:hover, .rus_link:hover, .eng_link:hover
+	color: #000
+
+.rus_link, .eng_link
+	color: rgba(0, 0, 0, 0.5)
+
+.ukr_link
+	color: rgba(0, 0, 0, 0.8)
+
+#my_nav
+	min-height: auto !important
+	padding: 15px 0 15px 0
+
 .logo_img
-	content: url(../img/logo-small-new4.png)
-	// min-height: 50px !important
-	// width: 50px
-	// width: 200px
-	// height: 40px
+	content: url(../img/logo/logo_1-2.svg)
+	min-width: 400px !important
+	max-width: 400px !important
+	width: 400px
 
 nav
 	background-color: $white
@@ -34,12 +76,15 @@ nav
 .row_img_top
 	width: 100%
 	margin: 0
-	max-height: 250px
-	height: 250px
-	background-repeat: no-repeat
-	background-image: url(../img/top-clear.jpg)
+	max-height: 220px
+	height: 220px
+	background-image: url(../img/top_img/row_img2.jpg)
+	// background-image: url(https://artbudservice.com.ua/wp-content/themes/twentysixteen/images/header_page.jpg)
+	// background-position: 100% 100%
+	background-position: 50% 49px
+	background-attachment: fixed
 	background-size: cover
-	background-position: center top
+	background-repeat: no-repeat
 	>.col
 		width: 90%
 		padding: 0 44px
