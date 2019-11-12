@@ -1,27 +1,32 @@
 @media all and (max-width: 1200px) {
-  .row_img_top {
-    max-height: 340px;
-    height: 340px; }
+  .container {
+    max-width: 100%; }
 
-  .row_img_top iframe {
-    width: 100%;
-    height: 340px; }
+  .logo_img {
+    min-width: 380px !important;
+    max-width: 380px !important;
+    width: 380px; }
 
   .bold_a, .navbar-nav > a {
     font-size: 15px;
     font-weight: 700;
-    margin: 0 7px; } }
+    margin: 0 7px; }
+
+  .row_txt {
+    padding: 10px 22px 25px 22px; }
+
+  .carousel_card {
+    padding: 7px 7px;
+    margin-left: 22px; }
+    .carousel_card img {
+      margin-right: 15px;
+      width: 80px;
+      height: 75%; } }
 @media all and (max-width: 992px) {
-  .row_img_top {
-    max-height: 290px;
-    height: 290px; }
-
-  .row_img_top iframe {
-    width: 100%;
-    height: 290px; }
-
   .logo_img {
-    content: url(../img/logo-small-newer1.png); }
+    min-width: 300px !important;
+    max-width: 300px !important;
+    width: 300px; }
 
   nav {
     min-height: 95px !important; }
@@ -33,18 +38,56 @@
     padding: 8px 0;
     line-height: 23px; }
     .content p {
-      line-height: 23px; } }
-@media all and (max-width: 768px) {
-  .row_img_top {
-    max-height: 250px;
-    height: 250px; }
+      line-height: 23px; }
 
-  .row_img_top iframe {
+  .sircle {
+    width: 90px;
+    height: 90px; }
+    .sircle a {
+      width: 90px;
+      height: 90px; }
+
+  .sircle-1, .sircle-2, .sircle-3, .sircle-4, .sircle-5 {
+    background-size: 90px; }
+
+  .sircle-1:hover, .sircle-2:hover, .sircle-3:hover,
+  .sircle-4:hover, .sircle-5:hover {
+    background-size: 90px; }
+
+  .img_txt img {
+    content: url("../img/img_txt-sm.jpg"); }
+
+  .carousel_card {
+    padding-right: 0px;
+    margin-left: 14px; }
+    .carousel_card img {
+      margin-right: 7px;
+      width: 61px; }
+
+  .card_txt p {
+    font-size: 0.8rem;
+    font-weight: 400; } }
+@media all and (max-width: 767px) {
+  .logo_img {
+    min-width: 290px !important;
+    max-width: 290px !important;
+    width: 290px; }
+
+  .text-center-sm {
+    text-align: center !important; }
+
+  .row_txt {
+    padding: 0 0px 25px 0px; }
+
+  .row_top_slide {
+    display: none; }
+
+  .row_circle {
+    display: none; }
+
+  .row_top_slide iframe {
     width: 100%;
     height: 250px; }
-
-  .logo_img {
-    content: url(../img/logo-small-phone.png); }
 
   .bold_a, .navbar-nav > a {
     margin: 0; }
@@ -52,6 +95,27 @@
   .row_content ul {
     list-style: none;
     padding-inline-start: 5px; }
+
+  .col-md-12 h1 {
+    font-size: 2rem; }
+
+  .row_carousel .carousel-indicators {
+    bottom: -15px; }
+
+  .carousel_card {
+    padding-right: 0px;
+    margin-left: 0;
+    margin-bottom: 11px; }
+    .carousel_card img {
+      margin-right: 21px;
+      width: 100px; }
+
+  .card_txt p {
+    font-size: 1rem;
+    font-weight: 500; }
+
+  .row_map, .col_map {
+    padding: 0; }
 
   .row_foot {
     padding: 0 10px;
@@ -66,5 +130,27 @@
       font-weight: 500; }
     footer small {
       font-size: 11px; } }
+@media all and (max-width: 576px) {
+  .logo_img {
+    min-width: 250px !important;
+    max-width: 250px !important;
+    width: 250px; } }
+@media all and (max-width: 358px) {
+  .logo_img {
+    min-width: 200px !important;
+    max-width: 200px !important;
+    width: 200px; } }
+@media all and (max-width: 320px) {
+  .logo_img {
+    min-width: 180px !important;
+    max-width: 180px !important;
+    width: 180px; }
+
+  .dropdown-item {
+    padding-left: 10px;
+    padding-right: 0px; }
+
+  .dropdown-menu a {
+    font-size: 14px; } }
 
 /*# sourceMappingURL=main_media.css.map */

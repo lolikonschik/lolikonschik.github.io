@@ -1,0 +1,133 @@
+@import "colors"
+
+html
+	font-size: 14px
+
+body
+	background-color: $body-bg
+	font-family: sans-serif
+	// padding-top: 40px
+	margin: 0 //?
+.container
+	width: 100%
+	height: 100%
+	&>.row:nth-child(2)
+		width: 100%
+		height: 100%
+
+.top-nav
+	background-color: $white
+
+.col-md-auto
+	display: table
+	margin: 0 auto
+	a
+		display: block
+		text-decoration: none
+		outline: none  
+		transition: .3s ease-in-out
+	ul
+		list-style: none
+		margin: 0
+		padding: 0
+	
+.top-nav_menu:after
+	content: ""
+	display: table
+	clear: both
+	
+.top-nav_menu > li
+	// width: 25%
+	float: left
+	position: relative
+	font-family: 'Open Sans', sans-serif
+	
+.top-nav_menu > li > a
+	text-transform: uppercase
+	font-size: 14px
+	font-weight: bold
+	color: #404040
+	padding: 15px 30px
+	
+.top-nav_menu li a:hover
+	color: #D5B45B
+	
+.top-nav_link:after
+	// content: "\f107"
+	font-family: "FontAwesome"
+	color: inherit
+	margin-left: 10px
+	
+.submenu 
+	background: #273037
+	position: absolute
+	left: 0
+	top: 100%
+	z-index: 5
+	width: 180px
+	opacity: 0
+	transform: scaleY(0)
+	transform-origin: 0 0
+	transition: .5s ease-in-out
+		
+.submenu a 
+	color: white
+	text-align: left
+	padding: 12px 15px
+	font-size: 13px
+	border-bottom: 1px solid rgba(255,255,255,.1)
+	
+.submenu li:last-child a 
+	border-bottom: none
+	
+.top-nav_menu > li:hover .submenu
+	opacity: 1
+	transform: scaleY(1)
+
+.row_img_top
+	//width: 100%
+	margin: 0
+	max-height: 300px
+	height: 300px
+	background-repeat: no-repeat
+	background-image: url(../img/top_documents.jpg)
+	background-size: cover
+	background-position: center top
+
+	// .col-md-12
+	// 	background-repeat: no-repeat
+	// 	background-image: url(../img/panorama1.jpg)
+	// 	background-size: cover
+	// 	background-position: center top
+
+.row_content
+	height: 100%
+	width: 100%
+	margin: 0
+	background-color: #fff
+	// padding: 10px 0 0 15px
+	// ul
+		// list-style: none
+		// padding-inline-start: 20px
+		// line-height: 25px
+		// li
+			// font-size: 15px
+
+
+.content
+	padding: 15px 20px
+	line-height: 25px
+
+.content_links
+	padding-left: 15px
+	a
+		color: #474a13
+
+
+.row_foot
+	margin: 0
+	background-image: url(../img/chruch.png)
+	background-repeat: repeat-repeat
+	line-height: 55px
+	p
+		padding-left: 20px
