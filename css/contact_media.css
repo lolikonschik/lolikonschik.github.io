@@ -52,12 +52,6 @@
   .bold_a, .navbar-nav > a {
     margin: 0; }
 
-  .row_foot {
-    line-height: 35px; }
-
-  .row_foot p {
-    font-size: 13px; }
-
   footer {
     padding: 7px 15px; }
     footer i {
@@ -72,16 +66,28 @@
     min-width: 250px !important;
     max-width: 250px !important;
     width: 250px; } }
-@media all and (max-width: 358px) {
+@media all and (max-width: 360px) {
+  #img_nav {
+    padding: 2px 0 3px 0px; }
+
+  #my_nav {
+    padding: 10px 0 10px 0; }
+
+  .ul_link {
+    letter-spacing: none; }
+
+  .ukr_link, .rus_link, .eng_link {
+    font-size: 0.8rem; }
+
   .logo_img {
-    min-width: 200px !important;
-    max-width: 200px !important;
-    width: 200px; } }
+    min-width: 220px !important;
+    max-width: 220px !important;
+    width: 220px; } }
 @media all and (max-width: 320px) {
   .logo_img {
-    min-width: 180px !important;
-    max-width: 180px !important;
-    width: 180px; }
+    min-width: 190px !important;
+    max-width: 190px !important;
+    width: 190px; }
 
   .dropdown-item {
     padding-left: 10px;
