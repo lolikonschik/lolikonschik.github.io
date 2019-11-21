@@ -68,13 +68,13 @@ nav {
 
 .row_img_top {
   width: 100%;
+  max-width: 100%;
+  min-width: 100%;
   margin: 0;
   max-height: 220px;
   height: 220px;
-  background-image: url(../img/top_img/row_img2.jpg);
-  background-position: 50% 49px;
-  background-attachment: fixed;
-  background-size: cover;
+  background-image: url(../img/top_img2/top_img2__8-3.jpg);
+  background-size: 100% auto;
   background-repeat: no-repeat; }
   .row_img_top > .col {
     width: 90%;
