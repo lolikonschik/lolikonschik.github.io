@@ -1,0 +1,186 @@
+/*@import "colors"*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap&subset=cyrillic");
+
+html {
+  font-size: 14px;
+  /*font-family: 'Roboto', sans-serif;*/
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background-color: #eef3f5;
+  font-family: "Roboto", sans-serif; }
+
+.logo_img {
+  content: url(../img/logo-small-new4.png)
+  /*// min-height: 50px !important
+  // width: 50px
+  // width: 200px
+  // height: 40px*/
+}
+
+nav{
+  background-color: white;
+  /*// margin: 15px 0;*/
+  min-height: 115px !important;
+}
+
+.navbar-nav a{
+  text-transform: uppercase
+}
+
+.bold_a, .navbar-nav > a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0 15px;
+}
+
+.row_img_top {
+  width: 100%;
+  margin: 0;
+  max-height: 250px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-image: url(../img/top-clear.jpg);
+  background-size: cover;
+  background-position: center top; }
+  .row_img_top > .col {
+    width: 90%;
+    padding: 0 44px;
+    margin: 0 auto; }
+    .row_img_top > .col h1 {
+      font-size: 40px;
+      width: 70%;
+      color: white;
+      font-weight: 500;
+      line-height: 46px;
+      letter-spacing: 1px;
+      word-spacing: 3px;
+      transform: scale(1, 1.4); }
+
+.row_content {
+  margin: 0;
+  padding: 0;
+  background-color: #fff; }
+
+.row_content_2 {
+  margin: 0;
+  padding: 20px 50px 0 50px;
+  background-color: #fff; }
+
+.row_foot {
+  margin: 0;
+  background-image: url(../img/chruch.png);
+  background-repeat: repeat-repeat;
+  line-height: 55px; }
+
+.row_foot p {
+  padding-left: 20px; }
+
+.wf-wrap {
+  float: left;
+  width: 90%;
+  padding: 10px 22px 0 22px; }
+  .wf-wrap p {
+    margin: 0 0 10px; }
+  .wf-wrap ul {
+    margin: 0 0 1.75em 1.25em;
+    padding: 0;
+    list-style: disc; }
+
+.vakansii_title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #004a66;
+  margin: 0; }
+
+.box {
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ccc; }
+  .box h2 {
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #444;
+    background: #ddd;
+    margin: 0 -10px -1px -10px;
+    padding: 10px 100px 10px 25px; }
+
+.box div.hide {
+  display: block;
+  width: auto;
+  line-height: 34px;
+  /*position: absolute;*/
+  right: 5px;
+  top: 8px;
+  padding: 0 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  border: solid 1px #aaa;
+  background: #f5f5f5; }
+
+.box div.hide:hover {
+  background: #fff; }
+
+.box div.hide span.h {
+  display: block; }
+
+.box div.hide span.s {
+  display: none; }
+
+.box div.show span.h {
+  display: none; }
+
+.box div.show span.s {
+  display: block; }
+
+.block {
+  padding: 0; }
+
+.block_in {
+  padding: 12px; }
+
+.closed div.hide span.h {
+  display: none; }
+
+.closed div.hide span.s {
+  display: block; }
+
+.closed div.show span.h {
+  display: block; }
+
+.closed div.show span.s {
+  display: none; }
+
+.content {
+  padding: 15px 20px;
+  line-height: 25px; }
+
+footer {
+  background-image: url(../img/chruch.png);
+  background-repeat: repeat-repeat;
+  padding: 11px 15px; }
+  footer i {
+    padding-top: 7px;
+    font-size: 15px; }
+  footer span {
+    font-size: 15px;
+    font-weight: 500; }
+  footer small {
+    font-size: 12px; }
+
+.fa-home {
+  padding-bottom: 12px; }
+
+/*# sourceMappingURL=vacancies.css.map */
