@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap&subset=cyrillic");
 html {
-  font-size: 15px; }
+  font-size: 14px; }
 
 body {
   background-color: #eef3f5;
@@ -114,10 +114,10 @@ nav {
 
 .sircle-4 {
   margin-right: 35px;
-  background: url(../img/sircle4-1.png); }
+  background: url(../img/sircle6-1.png); }
 
 .sircle-4:hover {
-  background: url(../img/sircle4-2.png); }
+  background: url(../img/sircle6-2.png); }
 
 .sircle-5 {
   margin-right: 35px;
