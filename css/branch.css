@@ -145,6 +145,12 @@ nav {
   margin: 0;
   background-color: #fff; }
 
+.btn_map {
+  padding: 1px 32px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.15); }
+
 .content {
   padding: 15px 20px;
   line-height: 25px; }
