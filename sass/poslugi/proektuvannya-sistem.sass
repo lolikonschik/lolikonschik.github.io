@@ -1,0 +1,195 @@
+@import "../colors"
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap&subset=cyrillic')
+
+html
+	font-size: 14px
+
+body
+	background-color: $body-bg
+	font-family: 'Roboto', sans-serif
+	// padding-top: 40px
+	// margin: 0
+
+.container
+	padding: 0
+	
+#img_nav, #my_nav, .navbar-brand
+	padding: 0
+
+#img_nav
+	padding: 9px 15px 8px 15px
+	min-height: auto !important
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+	ul
+		padding: 0
+		margin: 0
+		list-style: none
+		text-align: end
+		li
+			// padding: 0
+			margin: 0
+			list-style: none
+			// display: block
+			a
+				text-decoration: none
+				font-family: inherit
+				font-weight: 500
+
+#img_nav_320
+	display: none
+	padding: 9px 0px 8px 0px
+	min-height: auto !important
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+	ul
+		padding: 0
+		margin: 0
+		list-style: none
+		text-align: end
+		li
+			// padding: 0
+			margin: 0
+			list-style: none
+			// display: block
+			a
+				text-decoration: none
+				font-family: inherit
+				font-weight: 500
+
+.col_logo
+	padding-right: 0
+	padding-left: 0
+
+.col_link
+	padding-right: 0
+	padding-left: 0
+
+.ul_link
+	a
+		// font-size: 15px
+		letter-spacing: 0.9px
+		// transform: scale(1, 1.1)
+
+.li_ukr
+	// padding-bottom: 31px
+	padding-bottom: 28px
+
+.ukr_link:hover, .rus_link:hover, .eng_link:hover
+	color: #000
+
+.rus_link, .eng_link
+	color: rgba(0, 0, 0, 0.5)
+
+.ukr_link
+	color: rgba(0, 0, 0, 0.8)
+
+#my_nav
+	min-height: auto !important
+	padding: 15px 0 15px 0
+
+.logo_img
+	content: url(../../img/logo/logo_1-2.svg)
+	min-width: 400px !important
+	max-width: 400px !important
+	width: 400px
+
+nav
+	background-color: $white
+	// margin: 15px 0
+	min-height: 115px !important
+
+.navbar-nav a
+	text-transform: uppercase
+
+.bold_a, .navbar-nav > a
+	font-family: 'Roboto', sans-serif
+	font-size: 15px
+	font-weight: 700
+	margin: 0 15px
+
+.row_img_top
+	width: 100%
+	max-width: 100%
+	min-width: 100%
+	margin: 0
+	max-height: 220px
+	height: 220px
+	background-image: url(../../img/top_img_proekt_sistem/full_size2.jpg)
+	// background-image: url(https://artbudservice.com.ua/wp-content/themes/twentysixteen/images/header_page.jpg)
+	// background-position: 100% 100%
+	// background-position: 50% 49px
+	// background-attachment: fixed
+	background-size: 100% auto
+	// background-size: cover
+	background-repeat: no-repeat
+	>.col
+		width: 90%
+		padding: 0 44px
+		margin: 0 auto
+		h1
+			font-size: 40px
+			// font-family: 
+			color: white
+			width: 85%
+			font-weight: 500
+			line-height: 46px
+			letter-spacing: 1px
+			word-spacing: 3px
+			// font-stretch: ultra-condensed
+			transform: scale(1,1.5)
+
+	// .col-md-12
+	// 	background-repeat: no-repeat
+	// 	background-image: url(../img/panorama1.jpg)
+	// 	background-size: cover
+	// 	background-position: center top
+
+.row_content
+	margin: 0
+	background-color: #fff
+	padding: 15px 50px 0 50px
+	h1
+		text-align: center
+		padding-bottom: 15px
+	p
+		line-height: 25px
+		text-align: justify
+	ul
+		// list-style: none
+		// padding-inline-start: 20px
+		line-height: 25px
+		li
+			// font-size: 15px
+
+.content_img1
+		width: 42%
+		padding-top: 7px
+		padding-left: 10px
+
+.content_img2
+		width: 42%
+		padding-top: 7px
+		padding-right: 10px
+
+// .content
+// 	padding: 15px 20px
+// 	line-height: 25px
+
+
+footer
+	background-image: url(../../img/chruch.png)
+	background-repeat: repeat-repeat
+	padding: 11px 15px
+	i
+		padding-top: 7px
+		font-size: 15px
+	span
+		font-size: 15px
+		font-weight: 500
+	small
+		// margin-top: 124px
+		font-size: 12px
+
+.fa-home
+	padding-bottom: 12px
+
+@import "proektuvannya-sistem_media"
